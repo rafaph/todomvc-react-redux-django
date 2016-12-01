@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "copy-css": "cp ./node_modules/todomvc-app-css/index.css ./../static/app.css",
+    "watch": "npm run copy-css && webpack --watch",
+    "build": "npm run copy-css && webpack",
+    "build-prod": "npm run copy-css && NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "axios": "^0.15.2",
+    "immutable": "^3.8.1",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-redux": "^4.4.6",
+    "react-router": "^3.0.0",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-promise-middleware": "^4.1.0",
+    "redux-thunk": "^2.1.0",
+    "todomvc-app-css": "^2.0.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
+  }
+}

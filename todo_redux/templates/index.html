@@ -1,0 +1,19 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo MVC</title>
+    <link rel="stylesheet" href="{% static 'app.css' %}">
+</head>
+<body>
+<div id="wrapper"></div>
+<footer class="info">
+    <p>Double-click to edit a todo</p>
+    <p>Template by <a href="http://sindresorhus.com">Sindre Sorhus</a></p>
+    <p>Created by <a href="https://github.com/rafaph">Raphael Castro</a></p>
+    <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+</footer>
+<script type="application/javascript" src="{% static 'app.js' %}"></script>
+</body>
+</html>

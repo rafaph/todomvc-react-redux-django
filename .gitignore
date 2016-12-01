@@ -1,0 +1,6 @@
+todo_redux/assets/node_modules
+todo_redux/__pycache__
+.idea
+db.sqlite3
+*.pyc
+*.log
